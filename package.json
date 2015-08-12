@@ -1,0 +1,31 @@
+{
+  "name": "iojs-versions",
+  "version": "1.0.0",
+  "description": "Simple list of all iojs versions",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js --cov",
+    "fetch": "./scripts/fetch.sh",
+    "update": "./scripts/fetch.sh | ./scripts/update.js"
+  },
+  "dependencies": {
+    "help": "~2.1.0",
+    "nopt": "~3.0.3"
+  },
+  "devDependencies": {
+    "tap": "~1.3.2"
+  },
+  "license": "MIT",
+  "bin": {
+    "iojs-versions": "./bin/cmd.js"
+  },
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanlucas/iojs-versions"
+  },
+  "homepage": "https://github.com/evanlucas/iojs-versions",
+  "bugs": {
+    "url": "https://github.com/evanlucas/iojs-versions/issues"
+  }
+}
