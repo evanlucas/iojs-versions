@@ -1,6 +1,6 @@
 {
   "name": "iojs-versions",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple list of all iojs versions",
   "main": "index.js",
   "scripts": {
